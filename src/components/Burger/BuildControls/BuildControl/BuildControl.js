@@ -6,6 +6,7 @@ const buildControl = (props) => {
   return (
     <div className={classes.BuildControl}>
       <div className={classes.Label}>{props.label}</div>
+      <div className={classes.Price}>{props.price} $</div>
       <button
         className={classes.Less}
         onClick={props.removed}
